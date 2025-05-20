@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart | Furniture Website</title>
+
+    <!-- styles -->
+     <link rel="stylesheet" href="css/main.css">
+     <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="css/cart.css">
+     <link rel="stylesheet" href="css/contact.css">
+     <link rel="stylesheet" href="css/product.css">
+     <link rel="stylesheet" href="css/footer.css">
+     <link rel="stylesheet" href="css/services.css">
+     <link rel="stylesheet" href="css/counter.css">
+    <!-- ########### Fontawasome Icons ######### -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    </head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="logo">
+      <a href="#"><i class="fa-solid fa-chair"></i> <span>Furniture</span></a>
+    </div>
+
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html"><i class="fa-solid fa-shop"></i> Shop</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="cpntact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="portal">
+      <a href="cart.html" class="cart-icon"><i class="fa-solid fa-cart-arrow-down"></i></a>
+      <a href="login.html" class="user-icon"><i class="fa-solid fa-user"></i></a>
+    </div>
+    
+  </div>
+</header>
+
+    <nav class="mobile_navbar">
+      <ul>
+        <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+        <li><a href="shop.html"><i class="fa-solid fa-shop"></i></a></li>
+        <li><a href="about.html"><i class="fa-solid fa-circle-info"></i></a></li>
+        <li><a href="blog.html"><i class="fa-solid fa-blog"></i></a></li>
+        <li><a href="contact.html"><i class="fa-regular fa-comment-dots"></i></a></li>
+      </ul>
+    </nav>
+
+
+
+
+<header class="cart-header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Your Cart
+            </a>
+            <div class="cart-steps">
+                <div class="cart-step active">
+                    <div class="cart-step-number">1</div>
+                    <span class="cart-step-text">Shopping Cart</span>
+                </div>
+                <div class="cart-step">
+                    <div class="cart-step-number">2</div>
+                    <span class="cart-step-text">Shipping & Payment</span>
+                </div>
+                <div class="cart-step">
+                    <div class="cart-step-number">3</div>
+                    <span class="cart-step-text">Order Confirmation</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="cart-container">
+        <section class="cart-items">
+            <div class="cart-header-row">
+                <div>Product</div>
+                <div>Price</div>
+                <div>Quantity</div>
+                <div>Subtotal</div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-info">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc" alt="Luxury Sofa" class="item-image">
+                    <div class="item-details">
+                        <h3>Lorem Ipsum Dollar</h3>
+                        <p>Color:  </p>
+                        <p>Dimensions: x,y,z</p>
+                        <div class="item-actions">
+                            <button class="action-btn">Save for later</button>
+                            <button class="action-btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-price">Money</div>
+                <div class="item-quantity">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" value="1" min="1" class="quantity-input">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <div class="item-subtotal">Money</div>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-info">
+                    <img src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92" alt="Coffee Table" class="item-image">
+                    <div class="item-details">
+                        <h3>Lorem Ipsum Dollar</h3>
+                        <p>Material: Kothin Jinish</p>
+                        <p>Dimensions: x,y,z</p>
+                        <div class="item-actions">
+                            <button class="action-btn">Save for later</button>
+                            <button class="action-btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item-price">Money</div>
+                <div class="item-quantity">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" value="2" min="1" class="quantity-input">
+                    <button class="quantity-btn">+</button>
+                </div>
+                <div class="item-subtotal">Money</div>
+            </div>
+        </section>
+
+        <section class="cart-summary">
+            <h2 class="summary-title">Order Summary</h2>
+            <div class="summary-row">
+                <span>Subtotal (2 items)</span>
+                <span>Money Money Money</span>
+            </div>
+            <div class="summary-row">
+                <span>Shipping</span>
+                <span>FREE</span>
+            </div>
+            <div class="summary-row">
+                <span>Tax</span>
+                <span>Money Money Money</span>
+            </div>
+            <div class="summary-total">
+                <span>Total</span>
+                <span>Money Money Money</span>
+            </div>
+            <button class="checkout-btn">Proceed to Checkout</button>
+            
+            <div class="payment-methods">
+                <div class="payment-method">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>bKash</span>
+                </div>
+                <div class="payment-method cod">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <span>Cash on Delivery</span>
+                </div>
+            </div>
+            
+            <div class="secure-checkout">
+                <i class="fas fa-lock"></i>
+                <span>Secure SSL Encrypted Checkout</span>
+            </div>
+        </section>
+
+        <!-- Empty Cart -->
+        <!--
+        <section class="empty-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <h2>Your Cart is Empty</h2>
+            <p>Looks like you haven't added any furniture to your cart yet. Browse our collections to find the perfect pieces for your home.</p>
+            <a href="shop.html" class="shop-btn">Continue Shopping</a>
+        </section>
+        -->
+    </main>
+
+<main class="main">
+        <footer>
+        <div class="container_footer">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Premium Furniture</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum itaque eum, saepe ipsam sapiente tempore officia expedita dolores consequuntur quo omnis corrupti harum ea cumque, quasi sequi, recusandae temporibus ducimus!</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Returns Policy</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Payment Methods</h3>
+                    <p>We accept the following payment options:</p>
+                    <div class="payment-methods">
+                        <div class="payment-method">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>bKash</span>
+                        </div>
+                        <div class="payment-method cod">
+                            <i class="fas fa-money-bill-wave"></i>
+                            <span>Cash on Delivery</span>
+                        </div>
+                    </div>
+                    
+                    <h3 style="margin-top: 20px;">Newsletter</h3>
+                    <p>Subscribe for updates and special offers</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" class="form-control" style="margin-bottom: 10px;">
+                        <button type="submit" class="submit-btn" style="width: 100%;">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Furniture. All Rights Reserved. | Designed By <a href="">Sohorab Mahmud Fahim</a> & 
+                <a href="">Habibullah Habib</a></p>
+            </div>
+        </div>
+    </footer>
+
+</main>
+</main>
+
+<script src="index.js"></script>
+<script src="product.js"></script>
+<script src="cart.js"></script>
+    
+</body>
+</html>
